@@ -25,6 +25,8 @@
 		C6110D2F24CB8FD200867056 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6110D2E24CB8FD200867056 /* SignUpViewController.swift */; };
 		C6110D3124CB8FF200867056 /* VenueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6110D3024CB8FF200867056 /* VenueCell.swift */; };
 		C6110D3524CB901B00867056 /* VenueCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6110D3424CB901B00867056 /* VenueCell.xib */; };
+		C6110D3724CB9DE200867056 /* AuthSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6110D3624CB9DE200867056 /* AuthSession.swift */; };
+		C6110D3A24CB9E0D00867056 /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6110D3924CB9E0D00867056 /* DatabaseService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,8 @@
 		C6110D2E24CB8FD200867056 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		C6110D3024CB8FF200867056 /* VenueCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueCell.swift; sourceTree = "<group>"; };
 		C6110D3424CB901B00867056 /* VenueCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VenueCell.xib; sourceTree = "<group>"; };
+		C6110D3624CB9DE200867056 /* AuthSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthSession.swift; sourceTree = "<group>"; };
+		C6110D3924CB9E0D00867056 /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
 		EF851F63993D32FD5AEEF33F /* Pods-QuietSpace.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuietSpace.debug.xcconfig"; path = "Target Support Files/Pods-QuietSpace/Pods-QuietSpace.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,6 +100,7 @@
 			children = (
 				C6110D1F24CB8EB100867056 /* SupportingFiles */,
 				C6110D2024CB8EC400867056 /* Extensions */,
+				C6110D3824CB9DEF00867056 /* Network Services */,
 				C6110D2A24CB8FA300867056 /* Login View Controllers */,
 				C6110D1824CB89BB00867056 /* MainApp View Controllers */,
 				C6110D3224CB8FFD00867056 /* Cell */,
@@ -162,6 +167,15 @@
 				C6110D3424CB901B00867056 /* VenueCell.xib */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		C6110D3824CB9DEF00867056 /* Network Services */ = {
+			isa = PBXGroup;
+			children = (
+				C6110D3624CB9DE200867056 /* AuthSession.swift */,
+				C6110D3924CB9E0D00867056 /* DatabaseService.swift */,
+			);
+			path = "Network Services";
 			sourceTree = "<group>";
 		};
 		F5850EF1B4D45AF17F8E52C7 /* Frameworks */ = {
@@ -299,7 +313,9 @@
 				C6110D2324CB8F2E00867056 /* ExplorePageViewController.swift in Sources */,
 				C6110D3124CB8FF200867056 /* VenueCell.swift in Sources */,
 				C6110D1724CB870D00867056 /* UIViewControllerExt.swift in Sources */,
+				C6110D3A24CB9E0D00867056 /* DatabaseService.swift in Sources */,
 				C6110D0324CB5BDB00867056 /* SceneDelegate.swift in Sources */,
+				C6110D3724CB9DE200867056 /* AuthSession.swift in Sources */,
 				C6110D2924CB8F6400867056 /* VenueDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
