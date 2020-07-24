@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>203258047246-q852e1pii643go224lu2p7juvc2d07tt.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.203258047246-q852e1pii643go224lu2p7juvc2d07tt</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDzyh4zi_d7GQF9hTlt8Q9EP0psu24QTs0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>203258047246</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.casandragrullon.QuietSpace</string>
+	<key>PROJECT_ID</key>
+	<string>quietspaces-7c448</string>
+	<key>STORAGE_BUCKET</key>
+	<string>quietspaces-7c448.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:203258047246:ios:59c3b5ab1e16dbfc98855f</string>
+	<key>DATABASE_URL</key>
+	<string>https://quietspaces-7c448.firebaseio.com</string>
+</dict>
+</plist>
