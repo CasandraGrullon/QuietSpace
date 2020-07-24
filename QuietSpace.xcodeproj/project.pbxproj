@@ -17,6 +17,7 @@
 		C6110D1524CB5C3E00867056 /* MainApp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6110D1424CB5C3E00867056 /* MainApp.storyboard */; };
 		C6110D1724CB870D00867056 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6110D1624CB870D00867056 /* UIViewControllerExt.swift */; };
 		C6110D1A24CB89E200867056 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6110D1924CB89E200867056 /* MainTabBarViewController.swift */; };
+		C6110D1E24CB8E0900867056 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C6110D1D24CB8E0900867056 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		C6110D1424CB5C3E00867056 /* MainApp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainApp.storyboard; sourceTree = "<group>"; };
 		C6110D1624CB870D00867056 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		C6110D1924CB89E200867056 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		C6110D1D24CB8E0900867056 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EF851F63993D32FD5AEEF33F /* Pods-QuietSpace.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuietSpace.debug.xcconfig"; path = "Target Support Files/Pods-QuietSpace/Pods-QuietSpace.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,6 +89,7 @@
 				C6110D0924CB5BDD00867056 /* Assets.xcassets */,
 				C6110D0B24CB5BDD00867056 /* LaunchScreen.storyboard */,
 				C6110D0E24CB5BDD00867056 /* Info.plist */,
+				C6110D1D24CB8E0900867056 /* GoogleService-Info.plist */,
 			);
 			path = QuietSpace;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 			files = (
 				C6110D0D24CB5BDD00867056 /* LaunchScreen.storyboard in Resources */,
 				C6110D0A24CB5BDD00867056 /* Assets.xcassets in Resources */,
+				C6110D1E24CB8E0900867056 /* GoogleService-Info.plist in Resources */,
 				C6110D0824CB5BDB00867056 /* Main.storyboard in Resources */,
 				C6110D1524CB5C3E00867056 /* MainApp.storyboard in Resources */,
 			);
