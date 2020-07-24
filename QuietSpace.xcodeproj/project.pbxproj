@@ -10,7 +10,7 @@
 		36ECDA8BDB6C0736DDB3E339 /* Pods_QuietSpace.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4D224C66E815AABA0986A79 /* Pods_QuietSpace.framework */; };
 		C6110D0124CB5BDB00867056 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6110D0024CB5BDB00867056 /* AppDelegate.swift */; };
 		C6110D0324CB5BDB00867056 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6110D0224CB5BDB00867056 /* SceneDelegate.swift */; };
-		C6110D0524CB5BDB00867056 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6110D0424CB5BDB00867056 /* ViewController.swift */; };
+		C6110D0524CB5BDB00867056 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6110D0424CB5BDB00867056 /* HomePageViewController.swift */; };
 		C6110D0824CB5BDB00867056 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6110D0624CB5BDB00867056 /* Main.storyboard */; };
 		C6110D0A24CB5BDD00867056 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6110D0924CB5BDD00867056 /* Assets.xcassets */; };
 		C6110D0D24CB5BDD00867056 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6110D0B24CB5BDD00867056 /* LaunchScreen.storyboard */; };
@@ -18,6 +18,13 @@
 		C6110D1724CB870D00867056 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6110D1624CB870D00867056 /* UIViewControllerExt.swift */; };
 		C6110D1A24CB89E200867056 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6110D1924CB89E200867056 /* MainTabBarViewController.swift */; };
 		C6110D1E24CB8E0900867056 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C6110D1D24CB8E0900867056 /* GoogleService-Info.plist */; };
+		C6110D2324CB8F2E00867056 /* ExplorePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6110D2224CB8F2E00867056 /* ExplorePageViewController.swift */; };
+		C6110D2724CB8F4B00867056 /* FavoritesPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6110D2624CB8F4B00867056 /* FavoritesPageViewController.swift */; };
+		C6110D2924CB8F6400867056 /* VenueDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6110D2824CB8F6400867056 /* VenueDetailViewController.swift */; };
+		C6110D2C24CB8FBA00867056 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6110D2B24CB8FBA00867056 /* LoginViewController.swift */; };
+		C6110D2F24CB8FD200867056 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6110D2E24CB8FD200867056 /* SignUpViewController.swift */; };
+		C6110D3124CB8FF200867056 /* VenueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6110D3024CB8FF200867056 /* VenueCell.swift */; };
+		C6110D3524CB901B00867056 /* VenueCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6110D3424CB901B00867056 /* VenueCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +33,7 @@
 		C6110CFD24CB5BDB00867056 /* QuietSpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuietSpace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6110D0024CB5BDB00867056 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6110D0224CB5BDB00867056 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C6110D0424CB5BDB00867056 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C6110D0424CB5BDB00867056 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		C6110D0724CB5BDB00867056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C6110D0924CB5BDD00867056 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6110D0C24CB5BDD00867056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +42,13 @@
 		C6110D1624CB870D00867056 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		C6110D1924CB89E200867056 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		C6110D1D24CB8E0900867056 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C6110D2224CB8F2E00867056 /* ExplorePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorePageViewController.swift; sourceTree = "<group>"; };
+		C6110D2624CB8F4B00867056 /* FavoritesPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesPageViewController.swift; sourceTree = "<group>"; };
+		C6110D2824CB8F6400867056 /* VenueDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueDetailViewController.swift; sourceTree = "<group>"; };
+		C6110D2B24CB8FBA00867056 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C6110D2E24CB8FD200867056 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		C6110D3024CB8FF200867056 /* VenueCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueCell.swift; sourceTree = "<group>"; };
+		C6110D3424CB901B00867056 /* VenueCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VenueCell.xib; sourceTree = "<group>"; };
 		EF851F63993D32FD5AEEF33F /* Pods-QuietSpace.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuietSpace.debug.xcconfig"; path = "Target Support Files/Pods-QuietSpace/Pods-QuietSpace.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,12 +94,12 @@
 		C6110CFF24CB5BDB00867056 /* QuietSpace */ = {
 			isa = PBXGroup;
 			children = (
-				C6110D0024CB5BDB00867056 /* AppDelegate.swift */,
-				C6110D0224CB5BDB00867056 /* SceneDelegate.swift */,
-				C6110D1624CB870D00867056 /* UIViewControllerExt.swift */,
-				C6110D1824CB89BB00867056 /* View Controllers */,
-				C6110D0624CB5BDB00867056 /* Main.storyboard */,
-				C6110D1424CB5C3E00867056 /* MainApp.storyboard */,
+				C6110D1F24CB8EB100867056 /* SupportingFiles */,
+				C6110D2024CB8EC400867056 /* Extensions */,
+				C6110D2A24CB8FA300867056 /* Login View Controllers */,
+				C6110D1824CB89BB00867056 /* MainApp View Controllers */,
+				C6110D3224CB8FFD00867056 /* Cell */,
+				C6110D2124CB8EDD00867056 /* Storyboards */,
 				C6110D0924CB5BDD00867056 /* Assets.xcassets */,
 				C6110D0B24CB5BDD00867056 /* LaunchScreen.storyboard */,
 				C6110D0E24CB5BDD00867056 /* Info.plist */,
@@ -94,13 +108,60 @@
 			path = QuietSpace;
 			sourceTree = "<group>";
 		};
-		C6110D1824CB89BB00867056 /* View Controllers */ = {
+		C6110D1824CB89BB00867056 /* MainApp View Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				C6110D1924CB89E200867056 /* MainTabBarViewController.swift */,
-				C6110D0424CB5BDB00867056 /* ViewController.swift */,
+				C6110D0424CB5BDB00867056 /* HomePageViewController.swift */,
+				C6110D2224CB8F2E00867056 /* ExplorePageViewController.swift */,
+				C6110D2624CB8F4B00867056 /* FavoritesPageViewController.swift */,
+				C6110D2824CB8F6400867056 /* VenueDetailViewController.swift */,
 			);
-			path = "View Controllers";
+			path = "MainApp View Controllers";
+			sourceTree = "<group>";
+		};
+		C6110D1F24CB8EB100867056 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				C6110D0024CB5BDB00867056 /* AppDelegate.swift */,
+				C6110D0224CB5BDB00867056 /* SceneDelegate.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		C6110D2024CB8EC400867056 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C6110D1624CB870D00867056 /* UIViewControllerExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C6110D2124CB8EDD00867056 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C6110D0624CB5BDB00867056 /* Main.storyboard */,
+				C6110D1424CB5C3E00867056 /* MainApp.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		C6110D2A24CB8FA300867056 /* Login View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C6110D2B24CB8FBA00867056 /* LoginViewController.swift */,
+				C6110D2E24CB8FD200867056 /* SignUpViewController.swift */,
+			);
+			path = "Login View Controllers";
+			sourceTree = "<group>";
+		};
+		C6110D3224CB8FFD00867056 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C6110D3024CB8FF200867056 /* VenueCell.swift */,
+				C6110D3424CB901B00867056 /* VenueCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		F5850EF1B4D45AF17F8E52C7 /* Frameworks */ = {
@@ -172,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6110D0D24CB5BDD00867056 /* LaunchScreen.storyboard in Resources */,
+				C6110D3524CB901B00867056 /* VenueCell.xib in Resources */,
 				C6110D0A24CB5BDD00867056 /* Assets.xcassets in Resources */,
 				C6110D1E24CB8E0900867056 /* GoogleService-Info.plist in Resources */,
 				C6110D0824CB5BDB00867056 /* Main.storyboard in Resources */,
@@ -228,11 +290,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6110D2C24CB8FBA00867056 /* LoginViewController.swift in Sources */,
 				C6110D1A24CB89E200867056 /* MainTabBarViewController.swift in Sources */,
-				C6110D0524CB5BDB00867056 /* ViewController.swift in Sources */,
+				C6110D2724CB8F4B00867056 /* FavoritesPageViewController.swift in Sources */,
+				C6110D0524CB5BDB00867056 /* HomePageViewController.swift in Sources */,
+				C6110D2F24CB8FD200867056 /* SignUpViewController.swift in Sources */,
 				C6110D0124CB5BDB00867056 /* AppDelegate.swift in Sources */,
+				C6110D2324CB8F2E00867056 /* ExplorePageViewController.swift in Sources */,
+				C6110D3124CB8FF200867056 /* VenueCell.swift in Sources */,
 				C6110D1724CB870D00867056 /* UIViewControllerExt.swift in Sources */,
 				C6110D0324CB5BDB00867056 /* SceneDelegate.swift in Sources */,
+				C6110D2924CB8F6400867056 /* VenueDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

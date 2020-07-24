@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SignUpViewController.swift
 //  QuietSpace
 //
 //  Created by casandra grullon on 7/24/20.
@@ -8,13 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SignUpViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
-
+    
 
 }
-

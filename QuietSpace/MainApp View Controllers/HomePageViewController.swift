@@ -1,5 +1,5 @@
 //
-//  MainTabBarViewController.swift
+//  ViewController.swift
 //  QuietSpace
 //
 //  Created by casandra grullon on 7/24/20.
@@ -8,11 +8,13 @@
 
 import UIKit
 
-class MainTabBarViewController: UITabBarController {
+class HomePageViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        // Do any additional setup after loading the view.
     }
 
+
 }
+

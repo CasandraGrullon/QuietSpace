@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="LoginViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="QuietSpace" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="BYZ-38-t0r" customClass="LoginViewController" customModule="QuietSpace" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -46,6 +46,9 @@
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Sign In"/>
+                                <connections>
+                                    <action selector="signInButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TiW-7w-wpH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rAs-PV-0ML">
                                 <rect key="frame" x="20" y="620" width="374" height="44"/>
@@ -53,6 +56,9 @@
                                     <constraint firstAttribute="height" constant="44" id="Pbi-ox-6p2"/>
                                 </constraints>
                                 <state key="normal" title="Create Account"/>
+                                <connections>
+                                    <action selector="createAccountButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lui-hL-d36"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -79,15 +85,21 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="appLogoImageView" destination="De5-yK-YRq" id="dpf-n5-I2p"/>
+                        <outlet property="emailTextField" destination="aBi-LY-3RY" id="6dc-Dg-Diu"/>
+                        <outlet property="passwordTextField" destination="hZl-of-p5w" id="Mac-xR-TUh"/>
+                        <outlet property="signInButton" destination="SqI-Xz-KQX" id="wcV-cm-nga"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="139" y="119"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign Up View Controller-->
         <scene sceneID="enk-l8-PLc">
             <objects>
-                <viewController storyboardIdentifier="SignUpViewController" id="Jlt-2d-PkM" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SignUpViewController" id="Jlt-2d-PkM" customClass="SignUpViewController" customModule="QuietSpace" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iZ1-lb-EaU">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -225,7 +237,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter Your Zipcode" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dpK-Sd-7vs">
+                                            <textField opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter Your Zipcode" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dpK-Sd-7vs">
                                                 <rect key="frame" x="0.0" y="28.5" width="374" height="18.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" textContentType="postal-code"/>
@@ -238,8 +250,14 @@
                                                 </constraints>
                                             </view>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstItem="lb2-pH-fHZ" firstAttribute="top" secondItem="dpK-Sd-7vs" secondAttribute="bottom" constant="8" id="Wjz-Re-TZs"/>
+                                        </constraints>
                                     </stackView>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="49d-cp-8ba" firstAttribute="top" secondItem="zfB-5r-6Wk" secondAttribute="top" constant="355" id="FhK-sL-jGw"/>
+                                </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fwH-fG-RWN">
                                 <rect key="frame" x="20" y="564" width="374" height="44"/>

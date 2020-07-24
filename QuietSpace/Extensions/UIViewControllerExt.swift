@@ -26,6 +26,9 @@ extension UIViewController {
     public static func showLoginView() {
         showViewController(storyBoardName: "Main", viewControllerId: "LoginViewController")
     }
+    public static func showSignUpView() {
+        showViewController(storyBoardName: "Main", viewControllerId: "SignUpViewController")
+    }
     public static func showMainAppView() {
         resetWindow(MainTabBarViewController())
     }

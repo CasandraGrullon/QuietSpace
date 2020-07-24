@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Home Page View Controller-->
         <scene sceneID="55F-3u-PsA">
             <objects>
-                <viewController id="iyI-3c-PNb" sceneMemberID="viewController">
+                <viewController id="iyI-3c-PNb" customClass="HomePageViewController" customModule="QuietSpace" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="e93-nl-BVo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -206,10 +206,10 @@
             </objects>
             <point key="canvasLocation" x="-820.28985507246387" y="-550.44642857142856"/>
         </scene>
-        <!--View Controller-->
+        <!--Venue Detail View Controller-->
         <scene sceneID="X72-C3-koE">
             <objects>
-                <viewController id="3nl-t0-09z" sceneMemberID="viewController">
+                <viewController id="3nl-t0-09z" customClass="VenueDetailViewController" customModule="QuietSpace" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pB4-v3-73X">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -535,12 +535,13 @@
             </objects>
             <point key="canvasLocation" x="-29" y="-550"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Main Tab Bar View Controller-->
         <scene sceneID="QhW-CT-1Hh">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="whD-LM-1Dd" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="mainTabBarViewController" automaticallyAdjustsScrollViewInsets="NO" id="whD-LM-1Dd" customClass="MainTabBarViewController" customModule="QuietSpace" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="aFQ-hC-5sV">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -554,10 +555,10 @@
             </objects>
             <point key="canvasLocation" x="-2484.057971014493" y="-260.49107142857144"/>
         </scene>
-        <!--View Controller-->
+        <!--Explore Page View Controller-->
         <scene sceneID="6re-z1-swd">
             <objects>
-                <viewController id="L4O-nO-dxb" sceneMemberID="viewController">
+                <viewController id="L4O-nO-dxb" customClass="ExplorePageViewController" customModule="QuietSpace" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="So6-6d-EII">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -714,10 +715,10 @@
             </objects>
             <point key="canvasLocation" x="-37.681159420289859" y="88.392857142857139"/>
         </scene>
-        <!--View Controller-->
+        <!--Favorites Page View Controller-->
         <scene sceneID="kO6-fc-sPi">
             <objects>
-                <viewController id="fXT-zw-vjY" sceneMemberID="viewController">
+                <viewController id="fXT-zw-vjY" customClass="FavoritesPageViewController" customModule="QuietSpace" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gV8-C0-2JI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
