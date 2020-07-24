@@ -10,7 +10,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="QuietSpace" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="QuietSpace" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -87,7 +87,7 @@
         <!--View Controller-->
         <scene sceneID="enk-l8-PLc">
             <objects>
-                <viewController id="Jlt-2d-PkM" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SignUpViewController" id="Jlt-2d-PkM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iZ1-lb-EaU">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -250,6 +250,10 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Create Account"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FeM-7f-3DL">
+                                <rect key="frame" x="20" y="628" width="374" height="30"/>
+                                <state key="normal" title="Already have an account? Login Here"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -257,9 +261,12 @@
                             <constraint firstItem="zfB-5r-6Wk" firstAttribute="height" secondItem="iZ1-lb-EaU" secondAttribute="height" multiplier="0.458705" id="T4p-hV-STH"/>
                             <constraint firstItem="fwH-fG-RWN" firstAttribute="leading" secondItem="sM9-2G-2UO" secondAttribute="leading" constant="20" id="Wrh-KF-YH4"/>
                             <constraint firstItem="sM9-2G-2UO" firstAttribute="trailing" secondItem="fwH-fG-RWN" secondAttribute="trailing" constant="20" id="XJA-G3-35W"/>
+                            <constraint firstItem="FeM-7f-3DL" firstAttribute="leading" secondItem="sM9-2G-2UO" secondAttribute="leading" constant="20" id="Xdp-rl-EMi"/>
                             <constraint firstItem="zfB-5r-6Wk" firstAttribute="top" secondItem="PXs-Ih-iKj" secondAttribute="bottom" constant="20" id="Z7V-aa-8jN"/>
+                            <constraint firstItem="FeM-7f-3DL" firstAttribute="top" secondItem="fwH-fG-RWN" secondAttribute="bottom" constant="20" id="ZGX-Na-IBa"/>
                             <constraint firstItem="zfB-5r-6Wk" firstAttribute="leading" secondItem="sM9-2G-2UO" secondAttribute="leading" constant="20" id="dez-a1-mYI"/>
                             <constraint firstItem="PXs-Ih-iKj" firstAttribute="leading" secondItem="sM9-2G-2UO" secondAttribute="leading" constant="8" id="fVR-3X-FH5"/>
+                            <constraint firstItem="sM9-2G-2UO" firstAttribute="trailing" secondItem="FeM-7f-3DL" secondAttribute="trailing" constant="20" id="q2z-iM-tUN"/>
                             <constraint firstItem="sM9-2G-2UO" firstAttribute="trailing" secondItem="zfB-5r-6Wk" secondAttribute="trailing" constant="20" id="rpr-UW-Gev"/>
                             <constraint firstItem="PXs-Ih-iKj" firstAttribute="top" secondItem="sM9-2G-2UO" secondAttribute="top" constant="8" id="so0-I2-bMc"/>
                             <constraint firstItem="fwH-fG-RWN" firstAttribute="top" secondItem="zfB-5r-6Wk" secondAttribute="bottom" constant="40" id="uMI-GT-K5k"/>

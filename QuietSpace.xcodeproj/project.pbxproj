@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36ECDA8BDB6C0736DDB3E339 /* Pods_QuietSpace.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4D224C66E815AABA0986A79 /* Pods_QuietSpace.framework */; };
 		C6110D0124CB5BDB00867056 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6110D0024CB5BDB00867056 /* AppDelegate.swift */; };
 		C6110D0324CB5BDB00867056 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6110D0224CB5BDB00867056 /* SceneDelegate.swift */; };
 		C6110D0524CB5BDB00867056 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6110D0424CB5BDB00867056 /* ViewController.swift */; };
@@ -14,9 +15,13 @@
 		C6110D0A24CB5BDD00867056 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6110D0924CB5BDD00867056 /* Assets.xcassets */; };
 		C6110D0D24CB5BDD00867056 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6110D0B24CB5BDD00867056 /* LaunchScreen.storyboard */; };
 		C6110D1524CB5C3E00867056 /* MainApp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6110D1424CB5C3E00867056 /* MainApp.storyboard */; };
+		C6110D1724CB870D00867056 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6110D1624CB870D00867056 /* UIViewControllerExt.swift */; };
+		C6110D1A24CB89E200867056 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6110D1924CB89E200867056 /* MainTabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9BF0F9760B55F68FD5993D79 /* Pods-QuietSpace.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuietSpace.release.xcconfig"; path = "Target Support Files/Pods-QuietSpace/Pods-QuietSpace.release.xcconfig"; sourceTree = "<group>"; };
+		C4D224C66E815AABA0986A79 /* Pods_QuietSpace.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuietSpace.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6110CFD24CB5BDB00867056 /* QuietSpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuietSpace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6110D0024CB5BDB00867056 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6110D0224CB5BDB00867056 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +31,9 @@
 		C6110D0C24CB5BDD00867056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6110D0E24CB5BDD00867056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6110D1424CB5C3E00867056 /* MainApp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainApp.storyboard; sourceTree = "<group>"; };
+		C6110D1624CB870D00867056 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		C6110D1924CB89E200867056 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		EF851F63993D32FD5AEEF33F /* Pods-QuietSpace.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuietSpace.debug.xcconfig"; path = "Target Support Files/Pods-QuietSpace/Pods-QuietSpace.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +41,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36ECDA8BDB6C0736DDB3E339 /* Pods_QuietSpace.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B7E65E23446AD4A4387A537 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF851F63993D32FD5AEEF33F /* Pods-QuietSpace.debug.xcconfig */,
+				9BF0F9760B55F68FD5993D79 /* Pods-QuietSpace.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C6110CF424CB5BDB00867056 = {
 			isa = PBXGroup;
 			children = (
 				C6110CFF24CB5BDB00867056 /* QuietSpace */,
 				C6110CFE24CB5BDB00867056 /* Products */,
+				0B7E65E23446AD4A4387A537 /* Pods */,
+				F5850EF1B4D45AF17F8E52C7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,7 +81,8 @@
 			children = (
 				C6110D0024CB5BDB00867056 /* AppDelegate.swift */,
 				C6110D0224CB5BDB00867056 /* SceneDelegate.swift */,
-				C6110D0424CB5BDB00867056 /* ViewController.swift */,
+				C6110D1624CB870D00867056 /* UIViewControllerExt.swift */,
+				C6110D1824CB89BB00867056 /* View Controllers */,
 				C6110D0624CB5BDB00867056 /* Main.storyboard */,
 				C6110D1424CB5C3E00867056 /* MainApp.storyboard */,
 				C6110D0924CB5BDD00867056 /* Assets.xcassets */,
@@ -70,6 +92,23 @@
 			path = QuietSpace;
 			sourceTree = "<group>";
 		};
+		C6110D1824CB89BB00867056 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C6110D1924CB89E200867056 /* MainTabBarViewController.swift */,
+				C6110D0424CB5BDB00867056 /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		F5850EF1B4D45AF17F8E52C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4D224C66E815AABA0986A79 /* Pods_QuietSpace.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6110D1124CB5BDD00867056 /* Build configuration list for PBXNativeTarget "QuietSpace" */;
 			buildPhases = (
+				0A22DA9EF0370C99C7F2CC69 /* [CP] Check Pods Manifest.lock */,
 				C6110CF924CB5BDB00867056 /* Sources */,
 				C6110CFA24CB5BDB00867056 /* Frameworks */,
 				C6110CFB24CB5BDB00867056 /* Resources */,
+				BE7DFF9074C2B13783E49F85 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -137,13 +178,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A22DA9EF0370C99C7F2CC69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuietSpace-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE7DFF9074C2B13783E49F85 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuietSpace/Pods-QuietSpace-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuietSpace/Pods-QuietSpace-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuietSpace/Pods-QuietSpace-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C6110CF924CB5BDB00867056 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6110D1A24CB89E200867056 /* MainTabBarViewController.swift in Sources */,
 				C6110D0524CB5BDB00867056 /* ViewController.swift in Sources */,
 				C6110D0124CB5BDB00867056 /* AppDelegate.swift in Sources */,
+				C6110D1724CB870D00867056 /* UIViewControllerExt.swift in Sources */,
 				C6110D0324CB5BDB00867056 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +371,7 @@
 		};
 		C6110D1224CB5BDD00867056 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF851F63993D32FD5AEEF33F /* Pods-QuietSpace.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +390,7 @@
 		};
 		C6110D1324CB5BDD00867056 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BF0F9760B55F68FD5993D79 /* Pods-QuietSpace.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

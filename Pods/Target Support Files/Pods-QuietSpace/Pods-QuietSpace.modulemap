@@ -1,0 +1,6 @@
+framework module Pods_QuietSpace {
+  umbrella header "Pods-QuietSpace-umbrella.h"
+
+  export *
+  module * { export * }
+}
