@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="venueCell" id="O7i-Eu-5EZ" customClass="VenueCell" customModule="QuietSpace" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="885" height="518"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="8ob-MY-Ca0">
+                <rect key="frame" x="0.0" y="0.0" width="885" height="518"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="le1-nQ-bSk">
+                        <rect key="frame" x="0.0" y="0.0" width="354" height="518"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="to9-g3-fdl">
+                        <rect key="frame" x="362" y="8" width="515" height="41"/>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EOM-gV-Hcj">
+                        <rect key="frame" x="362" y="57" width="515" height="26.5"/>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$$$" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gry-vv-5dq">
+                        <rect key="frame" x="362" y="91.5" width="515" height="26.5"/>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="dRZ-WT-QoK">
+                        <rect key="frame" x="362" y="128" width="223" height="44"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="HPM-SR-6bZ">
+                                <rect key="frame" x="0.0" y="0.0" width="38" height="44"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="hIB-vg-fnf">
+                                <rect key="frame" x="46" y="0.0" width="38.5" height="44"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="oSs-bh-Lnd">
+                                <rect key="frame" x="92.5" y="0.0" width="38" height="44"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="mya-U9-8zb">
+                                <rect key="frame" x="138.5" y="0.0" width="38.5" height="44"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="IgT-ow-edH">
+                                <rect key="frame" x="185" y="0.0" width="38" height="44"/>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="44" id="QMs-Zo-6Nc"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Gry-vv-5dq" secondAttribute="trailing" constant="8" id="2ja-PA-eRE"/>
+                    <constraint firstItem="to9-g3-fdl" firstAttribute="leading" secondItem="le1-nQ-bSk" secondAttribute="trailing" constant="8" id="8V7-yr-DcJ"/>
+                    <constraint firstItem="le1-nQ-bSk" firstAttribute="top" secondItem="8ob-MY-Ca0" secondAttribute="top" id="9aa-QL-B1U"/>
+                    <constraint firstItem="Gry-vv-5dq" firstAttribute="leading" secondItem="le1-nQ-bSk" secondAttribute="trailing" constant="8" id="D46-2n-BVz"/>
+                    <constraint firstAttribute="trailing" secondItem="to9-g3-fdl" secondAttribute="trailing" constant="8" id="IUa-3I-Hjq"/>
+                    <constraint firstItem="dRZ-WT-QoK" firstAttribute="top" secondItem="Gry-vv-5dq" secondAttribute="bottom" constant="10" id="KPe-ZG-AWz"/>
+                    <constraint firstItem="to9-g3-fdl" firstAttribute="top" secondItem="8ob-MY-Ca0" secondAttribute="top" constant="8" id="Mv6-89-Z8x"/>
+                    <constraint firstItem="EOM-gV-Hcj" firstAttribute="top" secondItem="to9-g3-fdl" secondAttribute="bottom" constant="8" id="VNK-nH-hKB"/>
+                    <constraint firstAttribute="bottom" secondItem="le1-nQ-bSk" secondAttribute="bottom" id="dvn-KJ-ker"/>
+                    <constraint firstItem="dRZ-WT-QoK" firstAttribute="leading" secondItem="le1-nQ-bSk" secondAttribute="trailing" constant="8" id="fGO-oN-lQB"/>
+                    <constraint firstItem="le1-nQ-bSk" firstAttribute="width" secondItem="8ob-MY-Ca0" secondAttribute="width" multiplier="0.4" id="fwJ-1d-fln"/>
+                    <constraint firstItem="le1-nQ-bSk" firstAttribute="leading" secondItem="8ob-MY-Ca0" secondAttribute="leading" id="gXu-xU-sdP"/>
+                    <constraint firstItem="Gry-vv-5dq" firstAttribute="top" secondItem="EOM-gV-Hcj" secondAttribute="bottom" constant="8" id="r2c-DZ-uvv"/>
+                    <constraint firstAttribute="trailing" secondItem="EOM-gV-Hcj" secondAttribute="trailing" constant="8" id="rqc-op-J8r"/>
+                    <constraint firstAttribute="trailing" secondItem="dRZ-WT-QoK" secondAttribute="trailing" constant="300" id="xMb-VC-x9S"/>
+                    <constraint firstItem="EOM-gV-Hcj" firstAttribute="leading" secondItem="le1-nQ-bSk" secondAttribute="trailing" constant="8" id="zoo-oD-OXH"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="885" height="518"/>
+            <point key="canvasLocation" x="-63" y="124"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="star" catalog="system" width="128" height="116"/>
+    </resources>
+</document>
